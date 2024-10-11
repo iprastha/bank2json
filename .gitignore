@@ -31,3 +31,7 @@ psalm.xml
 testbench.yaml
 /docs
 /coverage
+psysh
+
+# Real bank csv files for testing
+/files/*_real.csv
