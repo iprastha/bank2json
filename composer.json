@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "nesbot/carbon": "^3.8"
     },
     "require-dev": {
         "pestphp/pest": "^2.20",
@@ -24,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Iprastha\\Bank2json\\": "src"
+            "Bank2json\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Iprastha\\Bank2json\\Tests\\": "tests"
+            "Bank2json\\Tests\\": "tests/"
         }
     },
     "scripts": {
